@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    background-color: rgb(102, 102, 180);
+}
+
+.about {
+    background-color: rgb(181, 171, 63);
+}
+
+.contact { 
+    background-color: rgb(66, 66, 228);
+}
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: white;
+    height: 100vh;
+}
+
+.navbar {
+    padding: 1rem;
+    padding: 1rem 0rem;
+}
+
+.main .navbar {
+    background-color: rgb(102, 102, 180);
+}
+
+.about .navbar {
+    background-color: rgb(181, 171, 63);
+}
+
+.contact .navbar {
+    background-color: rgb(66, 66, 228);
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 1.1rem 2rem;
+    font-weight: 600;
+    border-left: 5px solid white;
+    border-right: 5px solid white;
+}
+
+.navbar a:hover {
+    text-decoration: none;
+    padding: 1.1rem 2rem;
+    font-weight: 600;
+    border-left: 5px solid white;
+    border-right: 5px solid white;
+    background-color: white;
+}
+
+.main .navbar a:hover {
+    color: rgb(102, 102, 180);
+}
+
+.about .navbar a:hover {
+    color: rgb(181, 171, 63);
+}
+
+.contact .navbar a:hover {
+    color: rgb(66, 66, 228);
+}
+
+.section {
+    margin: 2rem 0;
+    padding: 0 1rem;
+}
